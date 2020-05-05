@@ -7,7 +7,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query CatalogueQuery {
-        products: allDatoCmsMisc {
+        products: allDatoCmsFlower {
           edges {
             node {
               id
